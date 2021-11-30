@@ -37,9 +37,9 @@ public class CollectionDemo {
 			System.out.println("Values in set cannot be duplicated " + integer);
 		}
 		
-		// Hash Map 
+		// Hash Map - searching is fast b/c uses hash code
 		Map<String, Integer> map = new HashMap<>();
-		map.put("ben", 32);
+		map.put("ben", 32); // hashing function - index - maps to one of the buckets
 		map.put("john", 67);
 		map.put("sam", 45);
 		map.put("christine", 31);
